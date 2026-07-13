@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iqra Habib — BI & Data Analyst. Portfolio of data analysis, dashboards, and Python/SQL projects.">
+    <title>DataByIqra</title>
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for clean, subtle icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- This links your HTML directly to your separate CSS file -->
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Intro Header -->
+        <header>
+            <h1 id="user-name">Iqra Habib</h1>
+            <p class="subtitle">BI & Data Analyst</p>
+            <p class="bio">
+                I like data, finding patterns, and asking questions it can answer. When I'm not writing optimized SQL or building dashboards, I'm usually lost in a fiction novel—likely spending too much time analyzing the narrative structures of my favorite authors.
+            </p>
+            <div class="header-actions">
+                <a href="resume.pdf" target="_blank" class="btn btn-primary"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+            </div>
+            <blockquote class="fav-quote">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p>There is no greater agony than bearing an untold story inside you.</p>
+                <cite>— Maya Angelou</cite>
+            </blockquote>
+        </header>
+        <!-- work experience -->
+        <section id="experience">
+            <h2><i class="fa-solid fa-briefcase" style="font-size: 1rem; opacity: 0.7;"></i> Work Experience</h2>
+            <div class="experience-list">
+                <div class="experience-card">
+                    <div class="experience-company">
+                        <img src="skillwright-logo.png" alt="SkillWright logo" class="company-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+                        <span class="company-logo-fallback" style="display:none;">S</span>
+                        SkillWright
+                    </div>
+                    <div class="experience-title">Intern - BI & research Analyst</div>
+                    <div class="experience-dates">July 2026 - Present</div>
+                    <p class="experience-desc">Developed and maintained interactive dashboards, providing actionable insights to stakeholders and improving decision-making processes.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2><i class="fa-solid fa-chart-simple" style="font-size: 1rem; opacity: 0.7;"></i> Projects </h2>
+            <div class="project-list">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-title">
+                        <a href="https://github.com/iqraghori/TMDB-API-Movie-Data-Analysis" target="_blank">
+                            TMDB API Movie Data Analysis <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                        </a>
+                    </div>
+                    <p class="project-desc">Extracted, cleaned, and analyzed film data using the TMDB API to discover underlying trends in box office success and audience behavior.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Data Wrangling</span>
+                        <span class="tag">EDA</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-title">
+                        <a href="https://github.com/iqraghori" target="_blank">
+                            IPL Cricket Data Analysis <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem; opacity: 0.6;"></i>
+                        </a>
+                    </div>
+                    <p class="project-desc">Built structured pandas exercises over IPL match data, including Purple Cap identification with economy-rate tiebreakers, season-wise batsman record functions, and dismissal logic that correctly handles wides, no-balls, and non-striker run-outs.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Data Cleaning</span>
+                        <span class="tag">Sports Analytics</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Human Touch / Interactive Section -->
+        <section id="current-interests">
+            <h2><i class="fa-solid fa-book-open" style="font-size: 1rem; opacity: 0.7;"></i> Current Shelf</h2>
+            <div class="shelf-card">
+                <div class="book-info">
+                    <h3 id="current-book">Loading current read...</h3>
+                    <p id="book-author">Author</p>
+                </div>
+                <span class="status-badge">Now Reading</span>
+            </div>
+        </section>
+
+        <!-- Connect Section -->
+        <section id="connect">
+            <h2><i class="fa-solid fa-link" style="font-size: 1rem; opacity: 0.7;"></i> Around the Web</h2>
+            <div class="links-grid">
+                <a href="https://github.com/iqraghori" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/iqra-habib-2149b0219" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://x.com/iqraghori" target="_blank"><i class="fa-brands fa-x-twitter"></i> X </a>
+                <a href="https://medium.com/@iqrahabib799" target="_blank"><i class="fa-brands fa-medium"></i> Medium </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>© <span id="year"></span> — Built with simplicity in mind by Iqra Habib.</p>
+        </footer>
+    </div>
+
+    <!-- Minimal JavaScript for easy management -->
+    <script>
+        // Set current year in footer automatically
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Easy-to-update personal data object.
+        // Change these strings whenever you finish a book!
+        const personalData = {
+            nowReading: {
+                title: "The Power of Your Subconscious Mind",
+                author: "Joseph Murphy"
+            }
+        };
+
+        // Injecting the data into the HTML dynamically
+        function initPortfolio() {
+            document.getElementById('current-book').textContent = personalData.nowReading.title;
+            document.getElementById('book-author').textContent = `by ${personalData.nowReading.author}`;
+        }
+
+        // Run on load
+        window.onload = initPortfolio;
+    </script>
+</body>
+</html>
