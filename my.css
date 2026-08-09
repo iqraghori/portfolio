@@ -200,13 +200,25 @@ h2 {
     box-shadow: 0 4px 12px rgba(92, 61, 90, 0.05);
 }
 
+.project-image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
 .project-image {
     width: 100%;
     height: auto;
     border-radius: 6px;
-    margin-bottom: 1rem;
     display: block;
     border: 1px solid #e8e5e2;
+}
+
+@media (max-width: 600px) {
+    .project-image-gallery {
+        grid-template-columns: 1fr;
+    }
 }
 
 .project-title {
